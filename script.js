@@ -53,8 +53,8 @@ function montarCard(contato){
     botao_excluir.setAttribute("class","card_button")
     card.appendChild(botao_excluir)
     const botao_excluir_img = document.createElement("img")
-    botao_excluir_img.setAttribute("scr","INSERIR ICONE DE LIXEIRA")
-    botao_excluir_img.setAttribute("class","card_button_img")
+    botao_excluir_img.setAttribute("scr","")
+    botao_excluir_img.setAttribute("class","card_button_img_delete")
     botao_excluir.appendChild(botao_excluir_img)
     botao_excluir.addEventListener("click", ()=> {
 
@@ -77,7 +77,7 @@ function montarCard(contato){
     card.appendChild(botao_editar)
     const botao_editar_img = document.createElement("img")
     botao_editar_img.setAttribute("scr","INSERIR ICONE DE EDITAVEL")
-    botao_editar_img.setAttribute("class","card_button_img")
+    botao_editar_img.setAttribute("class","card_button_img_edit")
     botao_editar.appendChild(botao_editar_img)
     botao_editar.addEventListener("click", ()=> {
 

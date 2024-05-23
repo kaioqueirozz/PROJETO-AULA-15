@@ -2,8 +2,8 @@
     text-align: center;
     margin-top: 20px;
     color: #333;
-    font-size: 30px; /* Tamanho da fonte aumentado */
-    font-weight: bold; /* Peso da fonte aumentado */
+    font-size: 30px; 
+    font-weight: bold; 
 }
 
 #formulario {
@@ -81,11 +81,26 @@ button:hover {
     cursor: pointer;
 }
 
-.card_button_img {
+.card_button_img_delete {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/54/54324.png');
     width: 20px;
     height: 20px;
     vertical-align: middle;
     margin-right: 5px;
+    display: inline-block; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.card_button_img_edit {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/1159/1159633.png');
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+    display: inline-block;
+    background-size: cover; 
+    background-repeat: no-repeat;
 }
 
 .card_button:hover {
